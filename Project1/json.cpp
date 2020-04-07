@@ -9,9 +9,9 @@ int main()
 { "firstName":"Thomas" , "lastName":"Carter" }
 ]
 })");
-  std::string sb(R"({world"""""")");
-  constexpr int i = 25;
-  constexpr int j = i;
+  std::string sb(R"("we are the"world")");
+  const int i = 2;
+  const int j = i;
   return 0;
 
 
